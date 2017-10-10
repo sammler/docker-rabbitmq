@@ -1,0 +1,22 @@
+{
+  "name": "docker-rabbitmq",
+  "version": "0.1.0",
+  "description": "Configured RabbitMQ for sammler.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammler/docker-rabbitmq.git"
+  },
+  "keywords": [
+    "docker",
+    "rabbitmq"
+  ],
+  "scripts": {
+    "d-build": "docker build -t sammlerio/rabbitmq ."
+  },
+  "author": "Stefan Walther <swr.nixda@gmail.com> (http://qliksite.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sammler/docker-rabbitmq/issues"
+  },
+  "homepage": "https://github.com/sammler/docker-rabbitmq#readme"
+}
