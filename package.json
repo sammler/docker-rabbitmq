@@ -1,6 +1,6 @@
 {
   "name": "docker-rabbitmq",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "RabbitMQ Docker image for sammler.io",
   "repository": {
     "type": "git",
