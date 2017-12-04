@@ -7,14 +7,14 @@ help:					## Show this help.
 .PHONY: help
 
 
-d-build:			## Build the Docker image (sammlerio/rabbitmq).
+build:			## Build the Docker image (sammlerio/rabbitmq).
 	docker build -t sammlerio/strategy-heartbeat .
-.PHONY: d-build
+.PHONY: build
 
-d-run:				## Run the Docker image (sammlerio/rabbitmq)
+run:				## Run the Docker image (sammlerio/rabbitmq)
 	docker run -it sammlerio/strategy-heartbeat
-.PHONY: d-run
+.PHONY: run
 
-gen-readme:		## Generate the README.md file.
+gen-readme:		## Generate the README.md file (using docker-verb).
 	docker run --rm -v ${PWD}:/opt/verb stefanwalther/verb
 .PHONY: gen-readme
