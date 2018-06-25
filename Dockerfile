@@ -1,4 +1,4 @@
-FROM rabbitmq:3.6-management
+FROM rabbitmq:3.6-management@sha256:4d8be27e0ba0c34b84bbe679fe14ac3cad1e020d53fc054c9154d30108a39211
 
 RUN apt-get update
 RUN apt-get install -y curl
